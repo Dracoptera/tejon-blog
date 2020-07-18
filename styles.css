@@ -18,6 +18,7 @@ h1 {
   font-family: "Capriola", sans-serif;
   font-weight: 700;
   color: #fbf0f0;
+  text-align: center;
 }
 
 .m-heading {
@@ -36,11 +37,46 @@ h1 {
   text-align: center;
 }
 
+.xs-heading {
+  font-size: 1.5rem;
+  font-family: "Capriola", sans-serif;
+  font-weight: 700;
+  color: #fbf0f0;
+  text-align: center;
+}
+
 .quote-heading {
   font-size: 1.7rem;
   font-family: "Gochi Hand", sans-serif;
   font-weight: 700;
   text-align: center;
+}
+
+.post-heading {
+  font-size: 3rem;
+  font-family: "Gochi Hand", sans-serif;
+  font-weight: 700;
+  text-align: center;
+}
+
+.post {
+  text-align: center;
+}
+
+.posts-container {
+  Nothing yet.
+}
+
+.posts-container img {
+  width: 70%;
+}
+
+.date {
+  background-color: #000839;
+  color: #f0a500;
+  border-radius: 10%;
+  padding: 0.5rem;
+  font-weight: 700;
 }
 
 .bg-lighter {
@@ -58,6 +94,10 @@ h1 {
   color: #f0ece3;
 }
 
+.pic-spacing {
+  width: 50%;
+}
+
 #showcase {
   display: flex;
   align-items: center;
@@ -65,19 +105,39 @@ h1 {
   background-image: url(/images/badger-close.jpg);
   background-color: rgba(0, 0, 0, 0.4);
   background-size: cover;
-  background-position: top;
+  background-position: center;
   position: relative;
   opacity: 0.7;
 }
 
-#showcase .l-heading {
-  text-align: center;
-}
-
-#recent {
-  Nothing yet
-}
-
 #footer {
   text-align: center;
+}
+
+#blog-showcase {
+  display: flex;
+  align-items: center;
+  height: 50vh;
+  background-image: url(/images/sheep.jpg);
+  background-color: rgba(0, 0, 0, 0.4);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  opacity: 0.7;
+}
+
+#menu-bar {
+  text-align: center;
+}
+
+#about-showcase {
+  display: flex;
+  align-items: center;
+  height: 50vh;
+  background-image: url(/images/yarns.jpg);
+  background-color: rgba(0, 0, 0, 0.4);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  opacity: 0.7;
 }

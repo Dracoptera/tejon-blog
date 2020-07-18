@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Tejetejón</title>
+    <title>Blog - Tejetejón</title>
     <link rel="stylesheet" href="styles.css" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
 
@@ -18,56 +18,29 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav">
-          <a class="nav-item nav-link active" href="/">Inicio <i class="fas fa-home"></i><span class="sr-only">(current)</span></a>
-          <a class="nav-item nav-link" href="/blog.html">Blog <i class="fab fa-microblog"></i></a>
+          <a class="nav-item nav-link" href="/">Inicio <i class="fas fa-home"></i><span class="sr-only">(current)</span></a>
+          <a class="nav-item nav-link active" href="/blog.html">Blog <i class="fab fa-microblog"></i></a>
           <a class="nav-item nav-link" href="/tienda.html">Tienda <i class="fas fa-store"></i></a>
           <a class="nav-item nav-link" href="/sobre.html">Sobre mí <i class="fas fa-address-card"></i></a>
         </div>
       </div>
     </nav>
 
-    <header id="showcase">
+    <header id="about-showcase">
       <div class="showcase-content">
         <h1 class="l-heading">
-          Bienvenido a mi madriguera.
+          Sobre mí
         </h1>
       </div>
     </header>
 
-    <section id="recent" class="container-fluid bg-primary p-3">
-      <h1 class="s-heading">Entradas recientes</h1>
-
-      <div class="card text-center">
-        <div class="card-header">
-          <strong>Destacado</strong>
-        </div>
-        <div class="card-body">
-          <h5 class="card-title">Un post especial</h5>
-          <p class="card-text">En serio tienes que leer esto.</p>
-          <a href="#" class="btn btn-primary">Leer más</a>
-        </div>
-        <div class="card-footer text-muted">
-          Hace 2 días
-        </div>
-      </div>
-
-      <div class="row m-3">
-        <div class="col-sm-6">
-          <div class="card">
-            <div class="card-body">
-              <h5 class="card-title">Special title treatment</h5>
-              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-              <a href="#" class="btn btn-primary">Leer más</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-6">
-          <div class="card">
-            <div class="card-body">
-              <h5 class="card-title">Special title treatment</h5>
-              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-              <a href="#" class="btn btn-primary">Leer más</a>
-            </div>
+    <section id="blog-body" class="container-fluid bg-primary p-3">
+      <div class="row justify-content-around">
+        <div class="posts-container col-sm-10 p-2 m-2">
+          <div class="post container bg-light p-4 m-3">
+            <h1 class="post-heading">Así empezó...</h1>
+            <img src="/images/myBadger.png" alt="" />
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
           </div>
         </div>
       </div>
