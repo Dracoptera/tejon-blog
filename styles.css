@@ -5,6 +5,7 @@ font-family: 'Roboto', sans-serif; */
 body {
   font-family: "Roboto", sans-serif;
   color: #000839;
+  overflow-x: hidden;
 }
 
 h1 {
@@ -14,7 +15,7 @@ h1 {
 /* Utility classes */
 
 .l-heading {
-  font-size: 3.5rem;
+  font-size: 3.2rem;
   font-family: "Capriola", sans-serif;
   font-weight: 700;
   color: #fbf0f0;
@@ -135,6 +136,10 @@ h1 {
   text-align: center;
 }
 
+.main-heading {
+  max-width: 80vw;
+}
+
 #footer .fab {
   padding: 0.4rem;
   margin: 0.4rem;
@@ -159,7 +164,7 @@ h1 {
   background-image: url(/images/sheep.jpg);
   background-color: rgba(0, 0, 0, 0.4);
   background-size: cover;
-  background-position: center;
+
   opacity: 0.7;
 }
 
