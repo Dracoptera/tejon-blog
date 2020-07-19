@@ -12,6 +12,11 @@ h1 {
   font-family: "Capriola", sans-serif;
 }
 
+header{
+  height: 100vh;
+}
+
+
 /* Utility classes */
 
 .l-heading {
@@ -20,6 +25,15 @@ h1 {
   font-weight: 700;
   color: #fbf0f0;
   text-align: center;
+  margin: 0;
+  position:absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.main-heading {
+  max-width: 80vw;
 }
 
 .m-heading {
@@ -136,9 +150,7 @@ h1 {
   text-align: center;
 }
 
-.main-heading {
-  max-width: 80vw;
-}
+
 
 #footer .fab {
   padding: 0.4rem;
@@ -153,6 +165,9 @@ h1 {
   background-repeat: no-repeat;
   background-position: center;
   opacity: 0.7;
+  overflow: hidden;
+  position: relative;
+
 }
 
 #footer {
