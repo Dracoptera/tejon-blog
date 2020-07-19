@@ -72,11 +72,36 @@ h1 {
 }
 
 .date {
-  background-color: #000839;
   color: #f0a500;
-  border-radius: 10%;
+  text-decoration: underline;
+  text-decoration-color: #000839;
   padding: 0.5rem;
   font-weight: 700;
+}
+
+.categories {
+  color: #0275d8;
+}
+
+.read-more {
+
+  text-align: right;
+}
+
+.read-more a {
+  color: #000839;
+  text-decoration: underline;
+  text-decoration-color: #f0a500;
+  font-weight: 600;
+  text-align: right;
+}
+
+.read-more a:hover {
+  color: #f0a500;
+  text-decoration: underline;
+  text-decoration-color: #000839;
+  font-weight: 600;
+  text-align: right;
 }
 
 .bg-lighter {
@@ -98,15 +123,29 @@ h1 {
   width: 50%;
 }
 
+.showcase-content {
+  margin: auto;
+}
+
+.recent {
+  background-color: #f0ece3;
+  margin: 0.4rem;
+  padding: 0.5rem;
+  border-radius: 5%;
+  text-align: center;
+}
+
+#footer .fab {
+  padding: 0.4rem;
+  margin: 0.4rem;
+}
+
 #showcase {
-  display: flex;
-  align-items: center;
   height: 90vh;
   background-image: url(/images/badger-close.jpg);
   background-color: rgba(0, 0, 0, 0.4);
   background-size: cover;
   background-position: center;
-  position: relative;
   opacity: 0.7;
 }
 
@@ -115,15 +154,16 @@ h1 {
 }
 
 #blog-showcase {
-  display: flex;
-  align-items: center;
   height: 50vh;
   background-image: url(/images/sheep.jpg);
   background-color: rgba(0, 0, 0, 0.4);
   background-size: cover;
   background-position: center;
-  position: relative;
   opacity: 0.7;
+}
+
+#blog-showcase .l-heading {
+  color: #0275d8;
 }
 
 #menu-bar {
@@ -131,8 +171,6 @@ h1 {
 }
 
 #about-showcase {
-  display: flex;
-  align-items: center;
   height: 50vh;
   background-image: url(/images/yarns.jpg);
   background-color: rgba(0, 0, 0, 0.4);
